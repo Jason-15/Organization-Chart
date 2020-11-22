@@ -1,0 +1,1 @@
+{"version":3,"file":"ITreeData.js","sourceRoot":"","sources":["../../../../src/webparts/treeOrgChart/components/ITreeData.ts"],"names":[],"mappings":"","sourcesContent":["import {ITreeChildren } from './ITreeChildren';\r\nexport interface ITreeData {\r\n   title: any;\r\n   expanded ?: boolean;\r\n   children ? : ITreeChildren[];\r\n}\r\n"]}

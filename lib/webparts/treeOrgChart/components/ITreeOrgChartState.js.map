@@ -1,0 +1,1 @@
+{"version":3,"file":"ITreeOrgChartState.js","sourceRoot":"","sources":["../../../../src/webparts/treeOrgChart/components/ITreeOrgChartState.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITreeOrgChartState {\r\n  treeData: any;\r\n  isLoading: boolean;\r\n  userEmail:string;\r\n  userId:number;\r\n}\r\n"]}

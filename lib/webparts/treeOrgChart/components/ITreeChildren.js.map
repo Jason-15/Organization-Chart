@@ -1,0 +1,1 @@
+{"version":3,"file":"ITreeChildren.js","sourceRoot":"","sources":["../../../../src/webparts/treeOrgChart/components/ITreeChildren.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITreeChildren {\r\n  title ? : any;\r\n  expanded ? :boolean;\r\n  children ? : any;\r\n}\r\n"]}

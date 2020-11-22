@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "4f45c562-805c-42da-81cc-8e84bf7834b0",
+  "alias": "TreeOrgChartWebPart",
+  "componentType": "WebPart",
+
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Tree Organization Chart" },
+    "description": { "default": "Tree Organization Chart" },
+    "officeFabricIconFontName": "Org",
+    "properties": {
+      "title": " ",
+      "currentUserTeam": true,
+      "maxLevels": 5
+    }
+  }]
+}

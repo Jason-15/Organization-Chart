@@ -1,0 +1,1 @@
+{"version":3,"file":"ITreeData.d.ts","sourceRoot":"","sources":["../../../../src/webparts/treeOrgChart/components/ITreeData.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,aAAa,EAAE,MAAM,iBAAiB,CAAC;AAC/C,MAAM,WAAW,SAAS;IACvB,KAAK,EAAE,GAAG,CAAC;IACX,QAAS,CAAC,EAAE,OAAO,CAAC;IACpB,QAAS,CAAC,EAAG,aAAa,EAAE,CAAC;CAC/B"}

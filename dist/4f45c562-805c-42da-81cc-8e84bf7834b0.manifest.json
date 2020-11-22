@@ -1,0 +1,84 @@
+{
+  "id": "4f45c562-805c-42da-81cc-8e84bf7834b0",
+  "alias": "TreeOrgChartWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "Tree Organization Chart"
+      },
+      "description": {
+        "default": "Tree Organization Chart"
+      },
+      "officeFabricIconFontName": "Org",
+      "properties": {
+        "title": " ",
+        "currentUserTeam": true,
+        "maxLevels": 5
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "tree-org-chart-web-part",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "tree-org-chart-web-part": {
+        "type": "path",
+        "path": "dist/tree-org-chart-web-part.js"
+      },
+      "TreeOrgChartWebPartStrings": {
+        "defaultPath": "lib/webparts/treeOrgChart/loc/en-us.js",
+        "type": "localizedPath"
+      },
+      "ControlStrings": {
+        "defaultPath": "node_modules/@pnp/spfx-controls-react/lib/loc/en-us.js",
+        "type": "localizedPath"
+      },
+      "PropertyControlStrings": {
+        "defaultPath": "node_modules/@pnp/spfx-property-controls/lib/loc/en-us.js",
+        "type": "localizedPath"
+      },
+      "@microsoft/sp-lodash-subset": {
+        "type": "component",
+        "version": "1.10.0",
+        "id": "73e1dc6c-8441-42cc-ad47-4bd3659f8a3a"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "version": "1.10.0",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "version": "1.10.0",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0"
+      },
+      "react": {
+        "type": "component",
+        "version": "16.3.2",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "failoverPath": "node_modules/react/dist/react.js"
+      },
+      "react-dom": {
+        "type": "component",
+        "version": "16.3.2",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "failoverPath": "node_modules/react-dom/dist/react-dom.js"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "version": "1.10.0",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6"
+      }
+    }
+  }
+}
